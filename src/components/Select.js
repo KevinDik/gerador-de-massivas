@@ -1,6 +1,9 @@
 export default function Select() {
     return(
         <div>
-            
-        </div>)
+            <select>
+                <option></option>
+            </select>
+        </div>
+        )
 }
