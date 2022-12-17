@@ -1,0 +1,20 @@
+{
+    "empresa": [
+        "Alares Caucaia",
+        "Alares Fortaleza"
+    ],
+    "eventualidades": [
+        "Massiva",
+        "Backbone fora",
+        "CCR em mau funcionamento",
+        "Sinistro de Rede"
+    ],
+    "cidades/nodos": [],
+    "setor/responsavél ciente": [
+        "Noc/Redes FTTH",
+        "Noc/Redes HFC",
+        "Noc",
+        "Redes FTTH",
+        "Redes HFC"
+    ]
+}
