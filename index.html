@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de massivas</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <h1>Gerador de Massivas</h1>
+            <label for="empresa">Selecione qual rede: </label>
+            <select name="empresa" id="empresa">
+                <option value="fortaleza" checked>Fortaleza</option>
+                <option value="caucaia">Caucaia</option>
+            </select>
+            <label for="evento">Selecione o tipo de eventualidade: </label>
+            <select name="evento" id="evento">
+                <option value="evento" checked>Pon(s) Fora</option>
+                <option value="evento">Backbone Fora</option>
+                <option value="evento">Equipamentos internos em mau funcionamento</option>
+                <option value="evento">SNR Zerado</option>
+            </select>
+            <label for="cidade">Descreva qual cidade e bairro</label>
+            <input type="text">
+            <label for="setor">Seletione o setor responsável: </label>
+            <select name="setor" id="setor">
+                <option value="setor">Noc/Redes FTTH</option>
+                <option value="setor">Noc/Redes HFC</option>
+                <option value="setor">Noc</option>
+                <option value="setor">Redes FTTH</option>
+                <option value="setor">Redes HFC</option>
+            </select>
+            <label for="hora">Hora de inicio</label>
+            <input type="datetime-local" name="hora" id="hora" />
+            <label for="clientes">Quantidade de clientes</label>
+            <input type="number">
+
+            <button type="submit">Gerar a Massiva</button>
+        </form>
+    </main>
+</body>
+
+</html>
