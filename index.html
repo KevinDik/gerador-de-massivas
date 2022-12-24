@@ -28,7 +28,7 @@
                 <option value="evento">SNR Zerado</option>
             </select>
             <label for="cidade">Descreva qual cidade e bairro</label>
-            <input type="text">
+            <input type="text" id="cidade">
             <label for="setor">Seletione o setor responsável: </label>
             <select name="setor" id="setor">
                 <option value="setor">Noc/Redes FTTH</option>
@@ -40,11 +40,12 @@
             <label for="hora">Hora de inicio</label>
             <input type="datetime-local" name="hora" id="hora"/>
             <label for="clientes">Quantidade de clientes</label>
-            <input type="number">
+            <input type="number" id="quant_clientes">
 
             <button type="submit">Gerar a Massiva</button>
         </form>
         <div class="response">
+            
         </div>
     </main>
     <script src="./js/index.js"></script>
