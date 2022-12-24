@@ -10,9 +10,11 @@
 </head>
 
 <body>
-    <main>
+    <header>
+        <h1 id="titulo">Gerador de Massivas</h1>
+    </header>
+    <main class="content">
         <form action="">
-            <h1>Gerador de Massivas</h1>
             <label for="empresa">Selecione qual rede: </label>
             <select name="empresa" id="empresa">
                 <option value="fortaleza" checked>Fortaleza</option>
@@ -36,13 +38,15 @@
                 <option value="setor">Redes HFC</option>
             </select>
             <label for="hora">Hora de inicio</label>
-            <input type="datetime-local" name="hora" id="hora" />
+            <input type="datetime-local" name="hora" id="hora"/>
             <label for="clientes">Quantidade de clientes</label>
             <input type="number">
 
             <button type="submit">Gerar a Massiva</button>
         </form>
+        <div class="response">
+        </div>
     </main>
+    <script src="./js/index.js"></script>
 </body>
-
 </html>
